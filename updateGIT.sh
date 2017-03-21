@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Hello, World!" 
-echo "Knowledge is power."
+cd /home/bassem/Desktop/Server/Project1
+git pull origin master
