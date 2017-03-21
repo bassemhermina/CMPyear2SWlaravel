@@ -22,7 +22,8 @@ Route::get('/bassem', function () {
 });
 
 
-Route::get('/update', function () {
-    echo "hello again bassem";
+Route::get('/updateServer', function () {
+	shell_exec("sudo sh -c 'cd Desktop/Server/Project1 && git pull origin master'")
+    echo "server updated";
 });
 
