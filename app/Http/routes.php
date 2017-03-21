@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    $this->line('got a GET request');
     return view('welcome');
 });
 
