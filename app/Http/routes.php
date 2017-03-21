@@ -21,3 +21,7 @@ Route::get('/bassem', function () {
 });
 
 
+Route::get('/update', function () {
+    echo "hello bassem";
+});
+
