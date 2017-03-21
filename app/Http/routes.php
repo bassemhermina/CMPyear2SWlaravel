@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    $this->info('got a GET request');
+    error_log('got a GET request');
     return view('welcome');
 });
 
