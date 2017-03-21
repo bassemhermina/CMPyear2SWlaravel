@@ -24,6 +24,5 @@ Route::get('/bassem', function () {
 
 Route::get('/updateServer', function () {
 	shell_exec("sudo sh -c 'cd Desktop/Server/Project1 && git pull origin master'")
-    echo "server updated";
 });
 
