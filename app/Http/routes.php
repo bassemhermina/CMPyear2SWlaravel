@@ -49,7 +49,7 @@ Route::get('/profile', function () {
 	//echo "return VIEW of profile";
 	echo '<link rel="stylesheet" type="text/css" href="css/profilecss.css">';
 	echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>';
- 	echo '<script type="text/javascript" src="profilejs.js"></script>';
+ 	echo '<script type="text/javascript" src="js/profilejs.js"></script>';
 	return view('profile');
 });
 
