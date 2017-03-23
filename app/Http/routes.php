@@ -31,13 +31,14 @@ Route::get('/updateserver', function () {
 
 //----
 //steps:
-// - ha3ml kol el routes.
-// - a3ml views 3abita (aw 7ata a-return html buttons) tfaragni el website
+// - ha3ml kol el routes. - done
+// - a3ml views 3abita (aw 7ata a-return html buttons) tfaragni el website - mlosh lazma lwa7do
 // - a3adi 3lehom b2a wa7ed wa7ed a3ml el functionality
 // - 
 
 ////////////////////////////// PROFILE ///
 Route::get('/profile', function () {
+	return view('greeting', ['name' => 'Bassem']);
     echo "return VIEW of profile";
 });
 
