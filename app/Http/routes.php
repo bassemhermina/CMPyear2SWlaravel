@@ -22,6 +22,8 @@ Route::get('/', function () {
 
 Route::get('/check', function () {
     echo "Server working correctly .. ";
+    echo "<a href='http://41.43.53.38:8000/profile'>Profile</a> "
+
 });
  
 // now i can update the server from this link , after pushing to git
@@ -29,7 +31,6 @@ Route::get('/updateserver', function () {
 	echo shell_exec('sh /home/bassem/Desktop/Server/Project1/updateGIT.sh');
 
 	// redirects - 3ashan mktebsh el link kol mara
-	echo "<a href='http://41.43.53.38:8000/profile'>Profile</a> "
 });
 
 //----
