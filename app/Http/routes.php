@@ -42,6 +42,10 @@ Route::get('/updateserver', function () {
 
 ////////////////////////////// PROFILE ///
 Route::get('/profile', function () {
+	// this function should return a view with user info and images
+	// *need to write a query to get user's name, picture, bio, type (to change the view)
+	// 	images, social media link.
+
 	echo "return VIEW of profile";
 	return view('profile', ['name' => 'Bassem']);
 });
