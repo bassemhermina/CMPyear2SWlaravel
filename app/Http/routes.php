@@ -38,7 +38,7 @@ Route::get('/updateserver', function () {
 
 ////////////////////////////// PROFILE ///
 Route::get('/profile', function () {
-	return view('greeting', ['name' => 'Bassem']);
+	return view('profile', ['name' => 'Bassem']);
     echo "return VIEW of profile";
 });
 
