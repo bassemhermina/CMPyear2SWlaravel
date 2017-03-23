@@ -38,8 +38,8 @@ Route::get('/updateserver', function () {
 
 ////////////////////////////// PROFILE ///
 Route::get('/profile', function () {
+	echo "return VIEW of profile";
 	return view('profile', ['name' => 'Bassem']);
-    echo "return VIEW of profile";
 });
 
 Route::get('/profile/icon', function () {
