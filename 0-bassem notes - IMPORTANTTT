@@ -15,3 +15,8 @@ kamel m3 el tutorial di
 we fl a5er , lazm a3ml composer update 3l server brdo !!
 ------------------
 dlwa2ty 3ashan el code bta3i yshtghal lazm el project a7otlo el dependency el foo2 di
+/////////////////
+uploading notes:
+max file size: 2mb
+wel klam da mwgod fi file esmo php.ini
+bla2ih bel str da -> php -i | grep php.ini

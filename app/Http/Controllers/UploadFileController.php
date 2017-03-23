@@ -27,6 +27,10 @@ class UploadFileController extends Controller {
       echo 'File Size: '.$file->getSize();
       echo '<br>';
    
+      echo '<h3>';
+      echo '<a href="http://41.43.53.38:8000/git/push">- Push server</a>';
+      echo '</h3>';
+   
       //Display File Mime Type
       //echo 'File Mime Type: '.$file->getMimeType();
    
