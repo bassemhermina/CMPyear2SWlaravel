@@ -22,11 +22,10 @@ Route::get('/', function () {
 
 Route::get('/check', function () {
     echo "Server working correctly .. ";
-    echo console.log("hello browser");
 });
  
 // now i can update the server from this link , after pushing to git
-Route::get('/updateServer', function () {
+Route::get('/updateserver', function () {
 	echo shell_exec('sh /home/bassem/Desktop/Server/Project1/updateGIT.sh');
 });
 
