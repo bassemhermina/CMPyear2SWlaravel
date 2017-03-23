@@ -75,6 +75,7 @@ Route::get('/profile/icon', function () {
     //return view('upload');
 
     //implemented in route "/uploadfile"
+    //uploades files to public/uploads
 });
 
 Route::get('/profile/logout', function () {
@@ -85,6 +86,9 @@ Route::get('/profile/logout', function () {
     //return redirect('/login');
 
 });
+
+/////------------- HEREEEEE !! ->
+
 
 Route::get('/profile/biography', function () {
     echo "AJAX send and updates the biography data on server";

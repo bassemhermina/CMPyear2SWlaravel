@@ -28,7 +28,7 @@ class UploadFileController extends Controller {
       echo '<br>';
    
       //Display File Mime Type
-      echo 'File Mime Type: '.$file->getMimeType();
+      //echo 'File Mime Type: '.$file->getMimeType();
    
       //Move Uploaded File
       $destinationPath = 'uploads';
