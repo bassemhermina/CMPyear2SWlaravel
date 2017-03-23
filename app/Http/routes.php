@@ -16,14 +16,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+/// Bassem's Functions ////////////////////////
 
 Route::get('/check', function () {
     echo "Server working correctly .. ";
+    echo console.log("hello browser");
 });
-
-// I DID IT ! 
+ 
 // now i can update the server from this link , after pushing to git
 Route::get('/updateServer', function () {
 	echo shell_exec('sh /home/bassem/Desktop/Server/Project1/updateGIT.sh');
 });
+
 
