@@ -85,6 +85,10 @@ Route::get('/profile/applyedits', function () {
 });
 ////////////// END OF PROFILE ROUTES .. /// 
 
+//// upload tests
+Route::get('/uploadfile','UploadFileController@index');
+Route::post('/uploadfile','UploadFileController@showUploadFile');
+
 
 ////////////////////////////// ADMIN ///
 Route::get('/admin', function () {
