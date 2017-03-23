@@ -87,7 +87,7 @@
 		    <div class="rela-block profile-card">
 		        <div class="profile-pic" id="profile_pic"></div>
 		        <div class="rela-block profile-name-container">
-		            <div class="rela-block user-name" id="user_name">{{name}}</div>
+		            <div class="rela-block user-name" id="user_name">{{$name}}</div>
 		            <div class="rela-block user-desc" id="user_description">User Description Here</div>
 		        </div>
 		        <div class="rela-block profile-card-stats">
