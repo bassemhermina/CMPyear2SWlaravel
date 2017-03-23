@@ -108,7 +108,7 @@
 		</div>
 
 		<h3>
-			<a href="http://41.43.53.38:8000/updateserver">- Update Server</a>
+			<a href="http://41.43.53.38:8000/git/update">- Update Server</a>
 		</h3>
     </body>
 </html>
