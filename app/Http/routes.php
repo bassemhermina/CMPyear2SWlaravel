@@ -46,7 +46,9 @@ Route::get('/profile', function () {
 	// *need to write a query to get user's name, picture, bio, type (to change the view)
 	// 	images, social media link.
 
-	echo "return VIEW of profile";
+	//echo "return VIEW of profile";
+	echo "<link rel='stylesheet' href='{{ URL::asset('css/profilecss.css') }}'>";	
+ 	echo "<script type='text/javascript' src='{{ URL::asset('js/profilejs.js') }}'></script>";
 	return view('profile', ['name' => 'Bassem']);
 });
 
