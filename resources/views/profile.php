@@ -6,8 +6,9 @@
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  		<script type="text/javascript" src="profilejs.js"></script> 
  		
- 		<link rel="stylesheet" type="text/css" href="{{asset('css/profilecss.css')}}"> 
-	</header>
+ 		<link rel="stylesheet" href="{{ URL::asset('css/profilecss.css') }}">	
+ 		<script type="text/javascript" src="{{ URL::asset('js/profilejs.js') }}"></script>
+ 	</header>
 
 
 
