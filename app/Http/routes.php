@@ -47,7 +47,7 @@ Route::get('/profile', function () {
 	// 	images, social media link.
 
 	//echo "return VIEW of profile";
-	echo '<link rel="stylesheet" type="text/css" href="profilecss.css">';
+	echo '<link rel="stylesheet" type="text/css" href="css/profilecss.css">';
 	return view('profile', ['name' => 'Bassem']);
 });
 
