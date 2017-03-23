@@ -110,5 +110,13 @@
 		<h3>
 			<a href="http://41.43.53.38:8000/git/update">- Update Server</a>
 		</h3>
+
+		<h3>
+			<a href="http://41.43.53.38:8000/uploadfile">- Upload file</a>
+		</h3>
+
+		<h3>
+			<a href="http://41.43.53.38:8000/git/push">- Push server</a>
+		</h3>
     </body>
 </html>

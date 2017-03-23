@@ -71,8 +71,10 @@ Route::get('/profile', function () {
 });
 
 Route::get('/profile/icon', function () {
-    echo "AJAX upload & change profile photo/icon";
-    return view('upload');
+    //echo "AJAX upload & change profile photo/icon";
+    //return view('upload');
+
+    //implemented in route "/uploadfile"
 });
 
 Route::get('/profile/logout', function () {
