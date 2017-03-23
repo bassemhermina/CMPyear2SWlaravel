@@ -2,7 +2,7 @@
 
 <html>
     <body>
-        <h1>Hello, {{ $name }}</h1>
+        <h1>Hello :Profile page</h1>
 
         <br>
 		<h3>
