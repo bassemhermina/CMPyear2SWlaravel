@@ -25,12 +25,28 @@ Route::get('/check', function () {
 });
  
 // now i can update the server from this link , after pushing to git
-Route::get('/updateserver', function () {
+Route::get('/git/update', function () {
 	echo shell_exec('sh /home/bassem/Desktop/Server/Project1/updateGIT.sh');
 
 	// redirects - 3ashan mktebsh el link kol mara
 	echo "<br>";
 	echo "<h3><a href='http://41.43.53.38:8000/profile'>- Profile</a></h3> ";
+});
+
+Route::get('/git/push', function () {
+    echo shell_exec('sh /home/bassem/Desktop/Server/Project1/pushGIT.sh');
+
+    // redirects - 3ashan mktebsh el link kol mara
+    echo "<br>";
+    echo "<h3><a href='http://41.43.53.38:8000/profile'>- Profile</a></h3> ";
+});
+
+Route::get('/git/dependencies', function () {
+    echo shell_exec('sh /home/bassem/Desktop/Server/Project1/dependenciesGIT.sh');
+
+    // redirects - 3ashan mktebsh el link kol mara
+    echo "<br>";
+    echo "<h3><a href='http://41.43.53.38:8000/profile'>- Profile</a></h3> ";
 });
 
 //----
