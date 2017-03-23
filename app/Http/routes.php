@@ -45,7 +45,8 @@ Route::get('/profile', function () {
 	// this function should return a view with user info and images
 	// *need to write a query to get user's name, picture, bio, type (to change the view)
 	// 	images, social media link.
-
+	// *and send these as an array of variables to the page
+	//  and the page will have all the variables
 	//echo "return VIEW of profile";
 	echo '<link rel="stylesheet" type="text/css" href="css/profilecss.css">';
 	echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>';
@@ -55,10 +56,16 @@ Route::get('/profile', function () {
 
 Route::get('/profile/icon', function () {
     echo "AJAX upload & change profile photo/icon";
+    return view('upload');
 });
 
 Route::get('/profile/logout', function () {
+	//this function should close the session/delete the ID of the user
+	//and redirect him to the login page again
+
     echo "log out and return VIEW of the home page (login - brenda)";
+    //return redirect('/login');
+
 });
 
 Route::get('/profile/biography', function () {
