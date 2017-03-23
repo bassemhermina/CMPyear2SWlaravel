@@ -17,8 +17,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/bassem', function () {
-    echo "hello Bassoooooooom";
+Route::get('/check', function () {
+    echo "Server working correctly .. ";
 });
 
 // I DID IT ! 
