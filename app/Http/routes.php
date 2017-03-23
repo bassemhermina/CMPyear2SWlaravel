@@ -50,7 +50,7 @@ Route::get('/profile', function () {
 	echo '<link rel="stylesheet" type="text/css" href="css/profilecss.css">';
 	echo '<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>';
  	echo '<script type="text/javascript" src="js/profilejs.js"></script>';
-	return view('profile');
+	return view('profile', ['name' => 'Bassem']);
 });
 
 Route::get('/profile/icon', function () {
