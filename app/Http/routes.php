@@ -68,3 +68,35 @@ Route::get('/profile/applyedits', function () {
 
 
 ////////////////////////////// ADMIN ///
+Route::get('/admin', function () {
+    echo "return VIEW of the admin panel, focusing on the users tab";
+    echo "with the verify filter selected";
+});
+
+Route::get('/admin/users', function () {
+    echo "return VIEW of admin panel focusing on the users tab";
+    echo "with no filters selected";
+});
+
+Route::get('/admin/users/refresh', function () {
+    echo "AJAX return all users to refresh the users panel";
+});
+
+Route::get('/admin/users/apply', function () {
+    echo "AJAX apply all edits on users (ads, ban , ..)";
+});
+
+////
+
+Route::get('/admin/announcement', function () {
+    echo "return VIEW of admin panel, focusing on the announcement tab";
+});
+
+Route::get('/admin/announcement', function () {
+    echo "AJAX upload and update announcement";
+});
+
+Route::get('/admin/announcement/refresh', function () {
+    echo "AJAX get current announcement data";
+});
+////////////// END OF 'my' ADMIN ROUTES .. /// 
